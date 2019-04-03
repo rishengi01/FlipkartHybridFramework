@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FlipkartHybridFramework]" parallel="none">
+  <test name="FlipkartTest(failed)" parallel="none">
+    <classes>
+      <class name="com.qa.test.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="LoginStepsTest"/>
+        </methods>
+      </class> <!-- com.qa.test.LoginTest -->
+      <class name="com.qa.test.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.test.HomePageTest -->
+    </classes>
+  </test> <!-- FlipkartTest(failed) -->
+</suite> <!-- Failed suite [FlipkartHybridFramework] -->
